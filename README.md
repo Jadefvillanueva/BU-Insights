@@ -1,5 +1,6 @@
 # BU Insight - News Website 
-![BU Insight Logo](assets/BU_Insights__1_-removebg-preview.png)
+<img src="assets/BU_Insights__1_-removebg-preview.png" alt="BU Insight Logo" width="300px">
+
 Welcome to BU Insight, a prototype website for news designed for Bicol University. This project aims to showcase a basic news platform for the university community.
 
 ## Features
