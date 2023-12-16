@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale-1.0">
+  <title> Bicol University Insights </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div id="HeaderLogo">
+      <img src="assets/BU_Insights__1_-removebg-preview.png" alt="Bicol University Logo" width="50" height="50">
+    </div>
+    <div id="HeaderTitle"><b>BICOL UNIVERSITY INSIGHTS</b></div>
+    <nav class="navigation">
+      <a href="#" class="nav-link" onclick="showAboutPopup()">About</a>
+      <a href="#" class="nav-link" onclick="showPopup('servicesPopup')">Services</a>
+      <a href="#" class="nav-link" onclick="showPopup('contactPopup')">Contact</a>
+      <button id="btnLoginPopup" class="btnLogin-popup">Login</button>
+    </nav>
+  </header>
+
+  <div id="aboutPopup" class="popup" style="display: none;">
+    <h3> About Us</h3>
+    <p>
+      Welcome to Bicol University Insights, where we bring you the latest updates from Bicol University! Stay connected with our community through timely and engaging news, covering everything from student accomplishments to groundbreaking research. Join us in celebrating the dynamic spirit of Bicol University – your primary source for all things in BU!</p>
+    <button onclick="closePopup('aboutPopup')">Close</button>
+  </div>
+
+  <div id="servicesPopup" class="popup">
+    <h3>Services Pop-up</h3>
+    <p> Bicol University Insights is your comprehensive source for staying connected with the dynamic pulse of Bicol University. Our services encompass a range of offerings tailored to keep you informed and engaged. From timely news updates and in-depth features, which delve into the diverse aspects of campus life, to comprehensive event coverage that captures the excitement of academic and cultural activities. We highlight groundbreaking research, celebrate the achievements of our vibrant community through community spotlights, and foster connections with our extensive alumni network. Bicol University Insights is dedicated to providing accurate, engaging, and holistic information about Bicol University, ensuring you stay connected with all facets of our academic community.</p>
+    <button onclick="closePopup('servicesPopup')">Close</button>
+  </div>
+
+  <div id="contactPopup" class="popup">
+    <h3>Contact Us</h3>
+    <p>Contact us for any inquiries or assistance at bicoluniversityinsights@gmail.com. We're here to help!</p>
+    <p>Contributors:</p>
+        <ul>
+            <li>Jade Villanueva</li>
+            <li>Lee Estucado</li>
+            <li>Kathrine Penaflor</li>
+            <li>Nicole Sarte</li>
+            <li>Moraine Durante</li>
+            <li>Kc Brijuega</li>
+            <li>Christina Sanchez</li>
+        </ul>
+    <button onclick="closePopup('contactPopup')">Close</button>
+  </div>
+
+  <div id="wrapper" class="wrapper">
+    <span id="popupClose" class="icon-close">
+      <ion-icon name="close"></ion-icon>
+    </span>
+
+    <div id="form-login" class="form-box login">
+      <h2> Login </h2>
+      <form action="#">
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail"></ion-icon></span>
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+          <input type="password" required>
+          <label>Password</label>
+        </div>
+        <div class="remember-forgot">
+          <label><input type="checkbox">Remember Me</label>
+          <a href="#">Forgot Password?</a>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="login-register">
+          <p>Don't have an account?<a href="#" id="registerLink" class="register-link"> Register Here</a></p>
+        </div>
+      </form>
+    </div>
+
+    <div id="form-register" class="form-box register">
+      <h2> Registration </h2>
+      <form action="#">
+
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail"></ion-icon></span>
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+          <input type="password" required>
+          <label>Password</label>
+        </div>
+
+        <div class="remember-forgot">
+          <label><input type="checkbox"> I agree to terms and conditions.</label>
+        </div>
+        <button type="submit" class="btn">Register</button>
+        <div class="login-register">
+          <p>Already have an account?
+            <a href="#" id="loginLink" class="login-link"> Login </a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  
+</body>
+
+
+</html>
