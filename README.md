@@ -10,10 +10,10 @@ Welcome to BU Insight, a prototype website for news designed for Bicol Universit
 - **Prototype Data Handling**: For the sake of prototyping, no database is used. Users can enter any random email and password to log in.
   
 # Contributors
-**Jade Villanueva**
-**Lee Estucado**
-**Kathrine Penaflor**
-**Nicole Sarte**
-**Moraine Durante**
-**Kc Brijuega**
-**Christina Sanchez**
+- **Jade Villanueva**
+- **Lee Estucado**
+- **Kathrine Penaflor**
+- **Nicole Sarte**
+- **Moraine Durante**
+- **Kc Brijuega**
+- **Christina Sanchez**
